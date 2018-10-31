@@ -1,5 +1,4 @@
 # ML_Classifier_kfolds
-# ML_CrossValidation
 
 本程式是用來跑10次交叉驗證(Cross_Validation)分數並將結果F1分數存入CSV
 
