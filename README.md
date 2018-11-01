@@ -30,7 +30,7 @@ happy to wait result
 
 # example use:  
 ```
-python clf_to_kfold.py CV -f Instagram_feature_word2vec.csv -y Instagram_labeled.csv -c GaussianNB -t 10 -s 10cv_results
+python clf_to_kfold.py CV -f Instagram_feature_word2vec.csv -y Instagram_labeled.csv -c LDA -t 10 -s 10cv_results
 
 your datasets X(fearures) X.head() :
    A3_token  A4_emoji  A5_tag  A6_num  A7_sign    ...     text_295  text_296  text_297  text_298  text_
@@ -48,44 +48,7 @@ your datasets y(labeled) y.head() :
 2  1.0
 3  1.0
 4  1.0
-Start Cross_Validation...
-CV_times : 0
-0.7265469061876247
-0.664
-0.682
-0.696
-0.686
-0.634
-0.732
-0.718
-0.698
-0.7034068136272545
-CV_times : 1
-0.6926147704590818
-0.736
-0.71
-0.696
-0.73
-0.656
-0.7
-0.676
-0.668
-0.685370741482966
-CV_times : 2
-0.7784431137724551
-0.674
-0.734
-0.678
-0.698
-0.674
-0.694
-0.696
-0.67
-0.6893787575150301
-CV_times : 3
-0.6826347305389222
-0.668
-0.704
+
 Start Cross_Validation...
 CV_times : 0
 0.9640718562874252
